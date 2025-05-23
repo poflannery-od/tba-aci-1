@@ -146,6 +146,9 @@ const AwardRecipienctPage = () => {
           The Webb Family
         </span>
         <span className="text-white/80 font-base text-lg text-center">
+          Kayden and Marquise Webb{" "}
+        </span>
+        <span className="text-white/80 font-base text-lg text-center">
           2023 Adoption{" "}
         </span>
       </div>
@@ -246,6 +249,9 @@ const AwardRecipienctPage = () => {
         </div>
         <span className="text-white font-bold text-3xl text-center">
           The Harris Family
+        </span>
+        <span className="text-white/80 font-base text-lg text-center">
+          Declan Harris{" "}
         </span>
         <span className="text-white/80 font-base text-lg text-center">
           2021 Adoption{" "}
@@ -364,6 +370,10 @@ const AwardRecipienctPage = () => {
           The Falk Family
         </span>
         <span className="text-white/80 font-base text-lg text-center">
+          Jackson (2019), Sophia (2021), Lexi (2023) and Cameron (2021 -
+          biological child) Falk{" "}
+        </span>
+        <span className="text-white/80 font-base text-lg text-center">
           2019, 2021, 2023 Adoptions{" "}
         </span>
       </div>
@@ -478,6 +488,9 @@ const AwardRecipienctPage = () => {
         </div>
         <span className="text-white font-bold text-3xl text-center">
           The Messner Family
+        </span>
+        <span className="text-white/80 font-base text-lg text-center">
+          Lincoln Messner{" "}
         </span>
         <span className="text-white/80 font-base text-lg text-center">
           2020 Adoption{" "}
