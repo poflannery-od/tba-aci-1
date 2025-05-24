@@ -8,27 +8,44 @@ const Page = () => {
     <div className="w-full flex flex-col items-center justify-start min-h-screen py-8 gap-12 bg-[#779a46] ">
       <div className="flex items-center justify-center">
         <div className="flex items-center justify-center relative w-[280px] h-[145px]">
+          {/* To-do: Need new logo for homepage */}
           <Image src="/images/logo/tba.png" alt="TBA ACI Logo White" fill />
         </div>
       </div>
       <div className="flex items-center justify-center gap-2 flex-col px-4">
         <span className="text-white/80 font-base text-xl text-center">
           Thank you for joining us for the{" "}
-          <span className="font-bold">6th Annual</span> Touched by Adoption
-          evening!
+          <span className="font-bold">First</span> Growing Through Adoption
+          event!
         </span>
+        {/* To-do: Replace this text */}
         <span className="text-white/80 font-base text-xl text-center mt-6">
           Tonight, we not only celebrate adoption and how it touches so many
           lives, but raise funds to strengthen internal and community-focused
           programming and lessen the financial burden of adoption for Wisconsin
           families.
         </span>
+        {/* To-do: Replace this text */}
         <span className="text-white/80 font-base text-xl text-center mt-6">
           This exciting evening includes a delightful dinner, cash bar, wine
           pull and stage program, plus silent & live auctions.
         </span>
       </div>
       <div className="w-[80px] h-[1px] bg-white/30" />
+      <div className="w-full flex items-center justify-center gap-2 flex-col bg-[#672543] py-8">
+        <span className="text-white font-bold text-3xl">View the Auction</span>
+        <span className="text-white/80 font-base text-lg text-center w-full px-4">
+          Check out the schedule for this evening below.
+        </span>
+        <Button
+          className="bg-white/10 hover:bg-white/10 border-white border-[2px] text-white"
+          asChild
+        >
+          <Link href="https://cbo.io/bidapp/index.php?slug=gta" target="_blank">
+            Visit the Auction Site
+          </Link>
+        </Button>
+      </div>
       <div className="w-full grid grid-cols-1 gap-4 px-4">
         <Link
           href="/speakers"
@@ -61,7 +78,7 @@ const Page = () => {
           </span>
         </Link>
       </div>
-      <div className="flex items-center justify-center gap-2 flex-col bg-[#3e4c5f] py-8">
+      <div className="w-full flex items-center justify-center gap-2 flex-col bg-[#3e4c5f] py-8">
         <span className="text-white font-bold text-3xl">
           Tonight&apos;s Program
         </span>
