@@ -39,7 +39,7 @@ const AwardRecipienctPage = () => {
                         <span className='text-white font-bold text-2xl select-none'>Wes and Kim Garner</span>
                         <span className='text-white font-light text-base select-none'>Learn More...</span>
                     </div>
-                    <Image src="/images/speakers/alec/image.jpg" alt="Wes and Kim Garner Cover" fill className='object-cover' />
+                    <Image src="/images/speakers/garner/garner-2.JPG" alt="Wes and Kim Garner Cover" fill className='object-cover' />
                 </Link>
                 <Link href="/speakers/nelson" className='w-[280px] h-[350px] flex items-center relative justify-center shadow-xl rounded-lg overflow-hidden'>
                     <div className='w-[280px] h-full z-30 bg-black/20 hover:bg-black/60 flex flex-col items-center justify-end absolute top-0 left-0 py-6'>
