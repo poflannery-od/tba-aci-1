@@ -311,22 +311,6 @@ const PageWrapperMobile = ({ className, children }: WrapperMobile) => {
         className="w-full flex flex-col items-center justify-start gap-6 py-10 px-6 bg-[#672543]"
       >
         <span className="text-white font-extrabold text-2xl text-center">
-          Click Below to Share Tonight&apos;s Event to Facebook!
-        </span>
-        <div className="flex flex-col items-center justify-start gap-4">
-          <Button
-            className="bg-[#779a46] hover:bg-[#779a46] text-white"
-            asChild
-          >
-            <Link
-              href="fb://sharer/sharer.php?u=https://adoptionchoiceinc.org/gta-2025/"
-              target="_blank"
-            >
-              Share GTA to Facebook
-            </Link>
-          </Button>
-        </div>
-        <span className="text-white font-extrabold text-2xl text-center">
           Ready to View the Auction?
         </span>
         <div className="flex flex-col items-center justify-start gap-4">
