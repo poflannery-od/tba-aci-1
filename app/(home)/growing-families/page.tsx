@@ -490,7 +490,7 @@ const AwardRecipienctPage = () => {
           The Falk Family
         </span>
         <span className="text-white/80 font-base text-lg text-center">
-          Jackson, Sophia, Lexi and Cameron (biological) Falk{" "}
+          Jackson, Sophia, Lexi and Cameron Falk{" "}
         </span>
         <span className="text-white/80 font-base text-lg text-center">
           2019, 2021, 2023 Adoptions{" "}
@@ -1205,7 +1205,7 @@ const AwardRecipienctPage = () => {
           The Czechanski Family
         </span>
         <span className="text-white/80 font-base text-lg text-center">
-          Andy, Erin, Layla, Stevenson, Jack, Fanelson and Wilson Czechanski{" "}
+          Layla, Stevenson, Jack, Fanelson and Wilson Czechanski{" "}
         </span>
         <span className="text-white/80 font-base text-lg text-center">
           2019 Adoption{" "}
@@ -1716,7 +1716,7 @@ const AwardRecipienctPage = () => {
           The Garner Family
         </span>
         <span className="text-white/80 font-base text-lg text-center">
-          Lely, Max (biological), Ela and Solomon Garner{" "}
+          Lely, Max, Ela and Solomon Garner{" "}
         </span>
         <span className="text-white/80 font-base text-lg text-center">
           2000, 2003, 2004 Adoption{" "}
