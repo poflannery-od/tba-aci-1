@@ -319,7 +319,7 @@ const PageWrapperMobile = ({ className, children }: WrapperMobile) => {
             asChild
           >
             <Link
-              href="https://www.facebook.com/sharer/sharer.php?u=https://adoptionchoiceinc.org/gta-2025/"
+              href="fb://sharer/sharer.php?u=https://adoptionchoiceinc.org/gta-2025/"
               target="_blank"
             >
               Share GTA to Facebook
