@@ -2,7 +2,6 @@ import { ArrowLeft } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-// To-do: Get Wes and Kim Garner Photo
 const IndividualSpeakerPage = () => {
     return (
         <div className="w-full flex flex-col items-center justify-start min-h-screen py-8 gap-8 bg-[#779a46]">

@@ -2,13 +2,12 @@ import { ArrowLeft } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-// To-do: Get Randy Shannon Picture
 const IndividualSpeakerPage = () => {
     return (
         <div className="w-full flex flex-col items-center justify-start min-h-screen py-8 gap-8 bg-[#779a46]">
             <div className='h-[40px] w-full' />
             <div className='w-[280px] h-[350px] flex items-center relative justify-center shadow-xl rounded-lg overflow-hidden'>
-                <Image src="/images/speakers/emcee/headshot.jpeg" alt="Emcee Cover" fill className='object-cover' />
+                <Image src="/images/speakers/emcee/randy.jpg" alt="Emcee Cover" fill className='object-cover' />
             </div>
             <div className="flex items-center justify-center gap-4 flex-col px-4 pt-10">
                 <span className="text-white font-bold text-3xl text-center">Randy {`"Shotgun"`} Shannon</span>

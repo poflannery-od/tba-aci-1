@@ -2,8 +2,6 @@ import { ArrowLeft } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-// To-do: Get Greg Louganis Photo
-// To-do: Get Randy Shannon Photo
 // To-do: Get Wes and Kim Garner Photo
 const AwardRecipienctPage = () => {
     return (
@@ -19,14 +17,14 @@ const AwardRecipienctPage = () => {
                         <span className='text-white font-bold text-2xl select-none'>Greg Louganis</span>
                         <span className='text-white font-light text-base select-none'>Learn More...</span>
                     </div>
-                    <Image src="/images/speakers/miss-wisconsin/headshot.jpg" alt="Greg Louganis Cover" fill className='object-cover' />
+                    <Image src="/images/speakers/greg/greg.jpg" alt="Greg Louganis Cover" fill className='object-cover' />
                 </Link>
                 <Link href="/speakers/emcee" className='w-[280px] h-[350px] flex items-center relative justify-center shadow-xl rounded-lg overflow-hidden'>
                     <div className='w-[280px] h-full z-30 bg-black/20 hover:bg-black/60 flex flex-col items-center justify-end absolute top-0 left-0 py-6'>
                         <span className='text-white font-bold text-2xl select-none'>Our Emcee</span>
                         <span className='text-white font-light text-base select-none'>Learn More...</span>
                     </div>
-                    <Image src="/images/speakers/emcee/headshot.jpeg" alt="Emcee Cover" fill className='object-cover' />
+                    <Image src="/images/speakers/emcee/randy.jpg" alt="Emcee Cover" fill className='object-cover' />
                 </Link>
 
             </div>

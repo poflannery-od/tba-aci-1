@@ -8,7 +8,7 @@ const IndividualSpeakerPage = () => {
         <div className="w-full flex flex-col items-center justify-start min-h-screen py-8 gap-8 bg-[#779a46]">
             <div className='h-[40px] w-full' />
             <div className='w-[280px] h-[350px] flex items-center relative justify-center shadow-xl rounded-lg overflow-hidden'>
-                <Image src="/images/speakers/miss-wisconsin/full-shot.jpg" alt="Greg Louganis Cover" fill className='object-cover' />
+                <Image src="/images/speakers/greg/greg.jpg" alt="Greg Louganis Cover" fill className='object-cover' />
             </div>
             <div className="flex items-center justify-center gap-4 flex-col px-4 pt-10">
                 <span className="text-white font-bold text-3xl text-center">Greg Louganis</span>
