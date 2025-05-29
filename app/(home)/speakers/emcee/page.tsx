@@ -2,7 +2,7 @@ import { ArrowLeft } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+// To-do: Get Randy Shannon Picture
 const IndividualSpeakerPage = () => {
     return (
         <div className="w-full flex flex-col items-center justify-start min-h-screen py-8 gap-8 bg-[#779a46]">
@@ -11,13 +11,13 @@ const IndividualSpeakerPage = () => {
                 <Image src="/images/speakers/emcee/headshot.jpeg" alt="Emcee Cover" fill className='object-cover' />
             </div>
             <div className="flex items-center justify-center gap-4 flex-col px-4 pt-10">
-                <span className="text-white font-bold text-3xl text-center">Mary Stoker Smith</span>
-                <span className="text-white/70 font-base italic text-xl text-center">2024 Emcee</span>
+                <span className="text-white font-bold text-3xl text-center">Randy {`"Shotgun"`} Shannon</span>
+                <span className="text-white/70 font-base italic text-xl text-center">2025 Emcee</span>
                 <div className='bg-white/30 h-[1px] w-[80px]' />
-                <span className="text-white/80 font-base text-lg text-center">Mary is a proud member of the Fox 6 news team where she anchors the 5 and 10 PM news on Sunday through Thursday every week. She reently celebrated her14th year at the station and for the third year now, she is our emcee of tonight&apos;s Touched By Adoption Gala.</span>
-                <span className="text-white/80 font-base text-lg text-center">From the people she sees every year to the new faces in the crowd, this event means a lot to her because together we&apos;re promoting the benefits of adoption and the need for children to find loving homes. In fact,  this La Crosse native knows all about that, she was adopted when she was 6 months old.</span>
-                <span className="text-white/80 font-base text-lg text-center">When Mary isn&apos;t on air or emceeing an event, you can find her running on the lakefront, grabbing a cup of coffee at a local roastery with her husband Eric or maybe even out and about shopping! She loves the Badgers, the Bucks and the Packers and oh, by the way, Mary was Miss Wisconsin USA 1996 and never misses a good pageant!</span>
-                <span className="text-white/80 font-base text-lg text-center">She is honored to be with us for another year and this year, she&apos;s brought a very special guest, her Mom Ella. She is so excited to be here and share this special night with you.</span>
+                <span className="text-white/80 font-base text-lg text-center">Randy “Shotgun” Shannon is the lively host of Y100 Green Bay&apos;s popular morning show, Shotgun & Charli.</span>
+                <span className="text-white/80 font-base text-lg text-center">A proud Wisconsin native, Randy brings over 40 years of radio experience to the airwaves. Known for his booming voice and big heart, he&apos;s been deeply involved with many charitable organizations throughout his career.</span>
+                <span className="text-white/80 font-base text-lg text-center">We first connected through his {`"Bake Someone's Day"`} campaign. Our Green Bay office was chosen to receive homemade baked goods made by Randy himself!</span>
+                <span className="text-white/80 font-base text-lg text-center">As we enjoyed his delicious bars, we had the chance to share the mission of ACI—and he&apos;s been a supporter ever since! We thank him for volunteering his time for our cause.</span>
             </div>
             <div className='bg-white/30 h-[1px] w-[80px]' />
             <Link href="/speakers" className='flex items-center justify-center gap-4 p-4'>

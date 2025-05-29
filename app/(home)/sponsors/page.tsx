@@ -8,7 +8,7 @@ const BoardMembersPage = () => {
     <div className="w-full flex flex-col items-center justify-start min-h-screen py-8 gap-12 bg-[#779a46] ">
       <div className="flex items-center justify-center gap-2 flex-col px-4 pt-10">
         <span className="text-white font-bold text-3xl text-center">
-          2024 Sponsors
+          2025 Sponsors
         </span>
       </div>
       <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
@@ -212,6 +212,29 @@ const BoardMembersPage = () => {
             </span>
           </div>
         </Link>
+        <Link
+          href="https://aloft-hotels.marriott.com/"
+          target="_blank"
+          className="flex flex-col gap-4 items-center justify-center"
+        >
+          <div className="w-[240px] h-[240px] bg-white relative shadow-xl rounded-full overflow-hidden flex items-center justify-center">
+            <Image
+              src="/images/sponsors/aloft.png"
+              alt="Aloft Hotels Cover"
+              width={220}
+              height={220}
+              className="object-contain"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-white font-base text-2xl select-none text-center">
+              Aloft Hotels
+            </span>
+            <span className="text-white/70 italic font-light text-light select-none text-center">
+              Silver Sponsor
+            </span>
+          </div>
+        </Link>
       </div>
       <div className="w-[80px] h-[1px] bg-white/30" />
       {/* <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
@@ -318,78 +341,11 @@ const BoardMembersPage = () => {
         </div>
       </div>
       <div className="w-[80px] h-[1px] bg-white/30" /> */}
-      <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
+      {/* <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
         <span className="text-white font-base text-3xl text-center">
           Our Notable Donors
         </span>
-      </div>
-      <div className="w-[80px] h-[1px] bg-white/30" />
-      <div className="grid grid-cols-1 px-4 gap-6">
-        <Link
-          href="https://aloft-hotels.marriott.com/"
-          target="_blank"
-          className="flex flex-col gap-4 items-center justify-center"
-        >
-          <div className="w-[180px] h-[180px] bg-white relative shadow-xl rounded-full overflow-hidden flex items-center justify-center">
-            <Image
-              src="/images/sponsors/aloft.png"
-              alt="Aloft Hotels Cover"
-              width={220}
-              height={220}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <span className="text-white font-base text-2xl select-none text-center">
-              Aloft Hotels
-            </span>
-            <span className="text-white/70 italic font-light text-light select-none text-center">
-              Notable Donor
-            </span>
-          </div>
-        </Link>
-        {/* <Link
-          href="https://villageofendeavor.org/index.asp?SEC=2075B866-95B1-40CC-8A63-CA69C641F096"
-          target="_blank"
-          className="flex flex-col gap-4 items-center justify-center"
-        >
-          <div className="w-[180px] h-[180px] bg-white relative shadow-xl rounded-full overflow-hidden flex items-center justify-center">
-            <Image
-              src="/images/sponsors/endeavor.png"
-              alt="Village of Endeavor Police Department Cover"
-              width={160}
-              height={160}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <span className="text-white font-base text-2xl select-none text-center">
-              Village of Endeavor Police Department
-            </span>
-            <span className="text-white/70 italic font-light text-light select-none text-center">
-              Notable Donor
-            </span>
-          </div>
-        </Link> */}
-        {/* <div className="flex flex-col gap-4 items-center justify-center">
-          <div className="w-[180px] h-[180px] bg-white relative shadow-xl rounded-full overflow-hidden flex items-center justify-center">
-            <User2
-              className=" text-black/80 w-[160px] h-[160px]"
-              strokeWidth={0.3}
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <span className="text-white font-base text-2xl select-none text-center">
-              Tim and Lori Kneeland Family Fund
-            </span>
-            <span className="text-white/70 italic font-light text-light select-none text-center">
-              Notable Donor
-            </span>
-          </div>
-        </div> */}
-      </div>
-
-      <div className="w-[80px] h-[1px] bg-white/30" />
+      </div> */}
       <Link href="/" className="flex items-center justify-center gap-4 p-4">
         <ArrowLeft className="text-white" strokeWidth={1} />
         <span className="text-white font-base text-lg">Return Home</span>

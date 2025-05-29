@@ -224,7 +224,7 @@ const PageWrapperMobile = ({ className, children }: WrapperMobile) => {
           </SheetContent>
         </Sheet>
         <div className="flex items-center justify-center h-full">
-          <Sheet onOpenChange={setSheetOpenTwo} open={sheetOpenTwo}>
+          {/* <Sheet onOpenChange={setSheetOpenTwo} open={sheetOpenTwo}>
             <SheetTrigger className="w-[60px] h-full flex items-center justify-center bg-[#672543] rounded-full shadow-xl shadow-black/30">
               <Newspaper className="text-white w-10 h-10" strokeWidth={1} />
             </SheetTrigger>
@@ -299,7 +299,7 @@ const PageWrapperMobile = ({ className, children }: WrapperMobile) => {
                 Click Here for Full Program
               </Link>
             </SheetContent>
-          </Sheet>
+          </Sheet> */}
           {/* <div className='w-[150px] h-full flex items-center justify-center bg-[#672543]'>
                         <span className='text-white font-extrabold text-lg tracking-wider '>Click to Bid</span>
                     </div> */}

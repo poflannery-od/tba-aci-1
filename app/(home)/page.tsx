@@ -7,9 +7,8 @@ const Page = () => {
   return (
     <div className="w-full flex flex-col items-center justify-start min-h-screen py-8 gap-12 bg-[#779a46] ">
       <div className="flex items-center justify-center">
-        <div className="flex items-center justify-center relative w-[280px] h-[145px]">
-          {/* To-do: Need new logo for homepage */}
-          <Image src="/images/logo/tba.png" alt="TBA ACI Logo White" fill />
+        <div className="w-[200px] flex items-center justify-center relative h-[200px]">
+          <Image src="/images/logo/gta-white.png" alt="GTA ACI Logo Color" fill />
         </div>
       </div>
       <div className="flex items-center justify-center gap-2 flex-col px-4">
@@ -18,14 +17,9 @@ const Page = () => {
           <span className="font-bold">First</span> Growing Through Adoption
           event!
         </span>
-        {/* To-do: Replace this text */}
         <span className="text-white/80 font-base text-xl text-center mt-6">
-          Tonight, we not only celebrate adoption and how it touches so many
-          lives, but raise funds to strengthen internal and community-focused
-          programming and lessen the financial burden of adoption for Wisconsin
-          families.
+          Tonight, we celebrate the beauty of adoption—the way it grows families and transforms lives. Together, we raise funds to strengthen both our internal efforts and community programs, helping ease the financial journey for Wisconsin families hoping to welcome a child home
         </span>
-        {/* To-do: Replace this text */}
         <span className="text-white/80 font-base text-xl text-center mt-6">
           This exciting evening includes a delightful dinner, cash bar, wine
           pull and stage program, plus silent & live auctions.
